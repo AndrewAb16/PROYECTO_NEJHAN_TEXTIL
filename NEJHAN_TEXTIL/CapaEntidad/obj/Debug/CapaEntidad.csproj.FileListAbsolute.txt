@@ -1,0 +1,12 @@
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USER\OneDrive\Documentos\Practica C#\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\USER\OneDrive\Escritorio\NEJHAN PROYECTO\NEJHAN_TEXTIL\CapaEntidad\obj\Debug\CapaEntidad.pdb
