@@ -11,6 +11,8 @@ namespace CapaEntidad
 
         public int IdMedidaProducto { get; set; }
 
+        public string Abreviatura_me { get; set; }
+
         public string Descripcion_me { get; set; }
 
         public string FechaRegistro { get; set; }

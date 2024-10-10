@@ -59,13 +59,12 @@
             // 
             this.Tbp_principal.Controls.Add(this.tabPage1);
             this.Tbp_principal.Controls.Add(this.tabPage2);
-            this.Tbp_principal.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Tbp_principal.Cursor = System.Windows.Forms.Cursors.Default;
             this.Tbp_principal.Location = new System.Drawing.Point(44, 44);
             this.Tbp_principal.Name = "Tbp_principal";
             this.Tbp_principal.SelectedIndex = 0;
             this.Tbp_principal.Size = new System.Drawing.Size(624, 288);
             this.Tbp_principal.TabIndex = 1;
-            this.Tbp_principal.UseWaitCursor = true;
             // 
             // tabPage1
             // 
@@ -73,7 +72,7 @@
             this.tabPage1.Controls.Add(this.Btn_buscar);
             this.tabPage1.Controls.Add(this.Txt_buscar);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -81,7 +80,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.UseWaitCursor = true;
             // 
             // Dgv_principal
             // 
@@ -106,7 +104,6 @@
             this.Dgv_principal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Dgv_principal.Size = new System.Drawing.Size(446, 123);
             this.Dgv_principal.TabIndex = 3;
-            this.Dgv_principal.UseWaitCursor = true;
             this.Dgv_principal.DoubleClick += new System.EventHandler(this.Dgv_principal_DoubleClick);
             // 
             // Btn_buscar
@@ -120,16 +117,15 @@
             this.Btn_buscar.TabIndex = 2;
             this.Btn_buscar.Text = "Buscar";
             this.Btn_buscar.UseVisualStyleBackColor = false;
-            this.Btn_buscar.UseWaitCursor = true;
             this.Btn_buscar.Click += new System.EventHandler(this.Btn_buscar_Click);
             // 
             // Txt_buscar
             // 
+            this.Txt_buscar.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Txt_buscar.Location = new System.Drawing.Point(80, 25);
             this.Txt_buscar.Name = "Txt_buscar";
             this.Txt_buscar.Size = new System.Drawing.Size(178, 20);
             this.Txt_buscar.TabIndex = 1;
-            this.Txt_buscar.UseWaitCursor = true;
             // 
             // label1
             // 
@@ -139,7 +135,6 @@
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Buscar:";
-            this.label1.UseWaitCursor = true;
             // 
             // tabPage2
             // 
@@ -155,11 +150,11 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
             this.tabPage2.UseVisualStyleBackColor = true;
-            this.tabPage2.UseWaitCursor = true;
             // 
             // Btn_retornar
             // 
             this.Btn_retornar.BackColor = System.Drawing.Color.LightGreen;
+            this.Btn_retornar.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.Black;
             this.Btn_retornar.Location = new System.Drawing.Point(200, 85);
@@ -168,11 +163,11 @@
             this.Btn_retornar.TabIndex = 8;
             this.Btn_retornar.Text = "Retornar";
             this.Btn_retornar.UseVisualStyleBackColor = false;
-            this.Btn_retornar.UseWaitCursor = true;
             // 
             // btn_cancelar
             // 
             this.btn_cancelar.BackColor = System.Drawing.Color.Salmon;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cancelar.ForeColor = System.Drawing.Color.Black;
             this.btn_cancelar.Location = new System.Drawing.Point(38, 85);
@@ -181,12 +176,12 @@
             this.btn_cancelar.TabIndex = 7;
             this.btn_cancelar.Text = "Cancelar";
             this.btn_cancelar.UseVisualStyleBackColor = false;
-            this.btn_cancelar.UseWaitCursor = true;
             this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
             // Btn_guardar
             // 
             this.Btn_guardar.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Btn_guardar.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.Black;
             this.Btn_guardar.Location = new System.Drawing.Point(119, 85);
@@ -195,7 +190,6 @@
             this.Btn_guardar.TabIndex = 6;
             this.Btn_guardar.Text = "Guardar";
             this.Btn_guardar.UseVisualStyleBackColor = false;
-            this.Btn_guardar.UseWaitCursor = true;
             this.Btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
             // 
             // Txt_descripcion_ca
@@ -206,7 +200,6 @@
             this.Txt_descripcion_ca.ReadOnly = true;
             this.Txt_descripcion_ca.Size = new System.Drawing.Size(200, 20);
             this.Txt_descripcion_ca.TabIndex = 1;
-            this.Txt_descripcion_ca.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -216,11 +209,11 @@
             this.label2.Size = new System.Drawing.Size(68, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Categoria: (*)";
-            this.label2.UseWaitCursor = true;
             // 
             // Btn_salir
             // 
             this.Btn_salir.BackColor = System.Drawing.Color.Khaki;
+            this.Btn_salir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_salir.ImageIndex = 4;
             this.Btn_salir.ImageList = this.imageList1;
@@ -246,6 +239,7 @@
             // Btn_eliminar
             // 
             this.Btn_eliminar.BackColor = System.Drawing.Color.Khaki;
+            this.Btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_eliminar.ImageIndex = 2;
             this.Btn_eliminar.ImageList = this.imageList1;
@@ -261,6 +255,7 @@
             // Btn_actualizar
             // 
             this.Btn_actualizar.BackColor = System.Drawing.Color.Khaki;
+            this.Btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar.ImageIndex = 1;
             this.Btn_actualizar.ImageList = this.imageList1;
@@ -276,6 +271,7 @@
             // Btn_nuevo
             // 
             this.Btn_nuevo.BackColor = System.Drawing.Color.Khaki;
+            this.Btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_nuevo.ImageIndex = 0;
             this.Btn_nuevo.ImageList = this.imageList1;

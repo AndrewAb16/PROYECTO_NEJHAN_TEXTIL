@@ -197,7 +197,7 @@ namespace CapaPresentacion
         private void Btn_unidadmedida_Click(object sender, EventArgs e)
         {
 
-            //openChildForm(new Frm_MedidaProductos());
+            openChildForm(new Frm_MedidaProductos());
 
 
         }
